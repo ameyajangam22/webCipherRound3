@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+nav {
+  background-color: #fff384;
+  font-family: "Abel", sans-serif;
+  position: relative;
+}
+li {
+  margin-right: 30%;
+}
+.navbar-brand {
+  margin-right: 4%;
+}
+.reqdemo {
+  position: absolute;
+  right: 10%;
+  top: 16%;
+  width: 10%;
+  background-color: white;
+  color: black;
+  border-radius: 30px;
+  height: 50px;
+}
+ul {
+  align-self: center;
+}
+body {
+  background: linear-gradient(#7be9f8, white);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Abel", sans-serif;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+pre {
+  font-family: "Abel", sans-serif;
+}
+h1 {
+  font-family: "Abel", sans-serif;
+  font-size: 50px;
+}
+.msg {
+  position: relative;
+  margin-left: 12%;
+  margin-top: 3%;
+  width: fit-content;
+}
+.landing {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.info {
+  width: 20%;
+  padding: 2%;
+}
+.image1 {
+  position: absolute;
+  float: right;
+  top: 5%;
+  left: 20%;
+}
+.learnmore {
+  left: 0;
+  margin-left: 14%;
+  right: 10%;
+  top: 16%;
+  width: 8%;
+  background-color: rgb(162, 40, 228);
+  color: #fff;
+  border-radius: 30px;
+  height: 50px;
+}
+.carousel-item {
+  background-color: #f063b87b;
+}
+#carouselExampleIndicators {
+  margin: 80px auto;
+  width: 80%;
+  height: 20px;
+}
+.slide1 {
+  float: left;
+}
+.first-slide-info {
+  margin-top: 100px;
+  margin-left: 6%;
+  width: 80%;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  margin-top: 25%;
+  padding-right: 60px;
+}
